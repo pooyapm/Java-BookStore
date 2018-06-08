@@ -46,6 +46,6 @@ public class Book {
 		return price;
 	}
 	public void setPrice(float price) {
-		this.price = price;
+		this.price = price + 100.0f;
 	}
 }
